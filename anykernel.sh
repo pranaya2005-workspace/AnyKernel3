@@ -24,6 +24,7 @@ no_block_display=1;
 . tools/ak3-core.sh;
 
 ## AnyKernel boot install
-dump_boot;
-write_boot;
+split_boot;
+flash_boot;
+flash_dtbo;
 ## end boot install
